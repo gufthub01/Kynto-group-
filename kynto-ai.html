@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kynto AI - Kynto Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Kynto<span>AI</span></h1>
+</header>
+
+<main>
+<section class="ai-section">
+
+    <h2>Kynto AI</h2>
+
+    <p class="subtitle">Your intelligent AI assistant</p>
+
+    <textarea
+        id="question"
+        placeholder="Ask Kynto AI anything..."
+        rows="3">
+    </textarea>
+
+    <button onclick="askAI()">Send</button>
+<button class="clear-btn" onclick="clearChat()">Clear Chat</button>
+    <div id="answer" class="answer"></div>
+
+</section>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
