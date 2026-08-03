@@ -585,4 +585,42 @@ background:#2563eb;
 
 .dark-mode .ai-section a{
 color:#60a5fa;
+    
+}
+.product-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+    margin: 20px;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.product-card h3 {
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.status {
+    display: inline-block;
+    background: #16a34a;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
 }
